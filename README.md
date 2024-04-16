@@ -82,6 +82,6 @@ Test the service by accessing:
 3. **Check Logs**:
    To ensure that the application is running as expected and making the REST calls successfully, check the logs:
    ```bash
-   kubectl run consumingrest --image=yourname/consumingrest --env="quoters_base_url=http://quoters:8080"
+   kubectl logs consumingrest
      ``` 
 Replace yourname with your Docker Hub username to correctly reference your Docker image in the commands.
