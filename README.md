@@ -30,7 +30,14 @@ This application demonstrates the ability to interact with a RESTful service by 
     kubectl get all -l run=quoters
     ```
 
-2. **Port Forwarding**:
+2. ** Build gradle **:
+     ```bash
+    # For macOS/Linux
+    ./gradlew build
+    # For Windows
+    gradlew.bat build
+    ```
+4.  **Port Forwarding**:
    To access the Quoters service locally, use port-forwarding:
 
     ```bash
