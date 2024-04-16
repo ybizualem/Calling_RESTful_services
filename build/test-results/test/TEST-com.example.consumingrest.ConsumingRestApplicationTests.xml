@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.consumingrest.ConsumingRestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-16T01:30:15" hostname="10-252-175-163.student.trincoll.edu" time="1.108">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.consumingrest.ConsumingRestApplicationTests" time="1.108"/>
+  <system-out><![CDATA[21:30:12.329 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.consumingrest.ConsumingRestApplicationTests]: ConsumingRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:30:12.461 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.consumingrest.ConsumingRestApplication for test class com.example.consumingrest.ConsumingRestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-15T21:30:12.937-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplicationTests      : Starting ConsumingRestApplicationTests using Java 21.0.1 with PID 17054 (started by yeabsirabizualem in /Users/yeabsirabizualem/Documents/CS415/ConsumingRest)
+2024-04-15T21:30:12.938-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T21:30:14.768-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplicationTests      : Started ConsumingRestApplicationTests in 2.169 seconds (process running for 3.811)
+2024-04-15T21:30:15.010-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=1, quote=Working with Spring Boot is like pair-programming with the Spring developers.]]
+2024-04-15T21:30:15.030-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=2, quote=With Boot you deploy everywhere you can find a JVM basically.]]
+2024-04-15T21:30:15.043-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=3, quote=Spring has come quite a ways in addressing developer enjoyment and ease of use since the last time I built an application using it.]]
+2024-04-15T21:30:15.072-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=4, quote=Previous to Spring Boot, I remember XML hell, confusing set up, and many hours of frustration.]]
+2024-04-15T21:30:15.099-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=11, quote=I have two hours today to build an app from scratch. @springboot to the rescue!]]
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/Users/yeabsirabizualem/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
