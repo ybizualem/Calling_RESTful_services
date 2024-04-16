@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ConsumingRestApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ConsumingRestApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.consumingrest.html">com.example.consumingrest</a> &gt; ConsumingRestApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.108s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads()</td>
+<td class="success">1.108s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:30:12.329 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.consumingrest.ConsumingRestApplicationTests]: ConsumingRestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:30:12.461 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.consumingrest.ConsumingRestApplication for test class com.example.consumingrest.ConsumingRestApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-15T21:30:12.937-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplicationTests      : Starting ConsumingRestApplicationTests using Java 21.0.1 with PID 17054 (started by yeabsirabizualem in /Users/yeabsirabizualem/Documents/CS415/ConsumingRest)
+2024-04-15T21:30:12.938-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplicationTests      : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2024-04-15T21:30:14.768-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplicationTests      : Started ConsumingRestApplicationTests in 2.169 seconds (process running for 3.811)
+2024-04-15T21:30:15.010-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=1, quote=Working with Spring Boot is like pair-programming with the Spring developers.]]
+2024-04-15T21:30:15.030-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=2, quote=With Boot you deploy everywhere you can find a JVM basically.]]
+2024-04-15T21:30:15.043-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=3, quote=Spring has come quite a ways in addressing developer enjoyment and ease of use since the last time I built an application using it.]]
+2024-04-15T21:30:15.072-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=4, quote=Previous to Spring Boot, I remember XML hell, confusing set up, and many hours of frustration.]]
+2024-04-15T21:30:15.099-04:00  INFO 17054 --- [ConsumingRest] [    Test worker] c.e.c.ConsumingRestApplication           : Quote[type=success, value=Value[id=11, quote=I have two hours today to build an app from scratch. @springboot to the rescue!]]
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>WARNING: A Java agent has been loaded dynamically (/Users/yeabsirabizualem/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.14.12/be4984cb6fd1ef1d11f218a648889dfda44b8a15/byte-buddy-agent-1.14.12.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at Apr 15, 2024, 9:30:16 PM</p>
+</div>
+</div>
+</body>
+</html>
