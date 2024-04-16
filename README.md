@@ -4,9 +4,20 @@ This project demonstrates how to consume a RESTful service with a Java applicati
 
 ## Prerequisites
 
-- Docker
-- Kubernetes
-- kubectl
+- Docker installed on your machine and docker hub account.
+- Make sure you enable Kubernetes on the docker app setting if you want to run a kubernetes 
+  cluster.
+- JDK 17 for running locally without Docker.
+  
+## Features
+
+This application demonstrates the ability to interact with a RESTful service by making HTTP requests to the Quoters service. Key features include:
+
+- **Consume RESTful API**: The application makes calls to multiple endpoints on the Quoters RESTful service, retrieving data from each endpoint.
+- **Docker Containerization**: The Java application is containerized using Docker, ensuring that it can be easily deployed and run in any environment that supports Docker.
+- **Kubernetes Integration**: Deployment scripts and instructions are provided for Kubernetes, allowing the application to scale and be managed within a Kubernetes cluster.
+- **Logging and Monitoring**: The application logs all RESTful responses, which can be viewed directly via Kubernetes logs to monitor the behavior and output of the application in real time.
+
 
 ## Setup and Run Quoters Service
 
@@ -36,12 +47,12 @@ This project demonstrates how to consume a RESTful service with a Java applicati
    ```
 2. To build the Docker image for the ConsumingRest application, run the following command from the root of this project:
 
- ```bash
-    docker build -t yourname/consumingrest .
-  ```
+   ```bash
+    docker build -t your_dockerhub_username/consumingrest .
+    ```
 2. After building the image, you can run it locally using:
     ```bash
-    docker run -p 8080:8080 yourname/consumingrest
+    docker run -p 8080:8080 your_dockerhub_usernam/consumingrest
     ```
 3. Test
 Test the service by accessing:
@@ -54,7 +65,7 @@ Test the service by accessing:
 1. **Push to Docker Hub**:
    Ensure you are logged into your Docker Hub account and push the image:
    ```bash
-   docker push yourname/consumingrest
+   docker push your_dockerhub_username/consumingrest
      ```
 2. **Run on Kubernetes**:
    Deploy your container in Kubernetes by running:
