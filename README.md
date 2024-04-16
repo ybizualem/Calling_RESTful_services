@@ -28,19 +28,22 @@ This project demonstrates how to consume a RESTful service with a Java applicati
 
    Keep this running, and use Ctrl-C to stop the port forwarding when done.
 
-## Build the Application
-
-To build the Docker image for the ConsumingRest application, run the following command from the root of this project:
-
-  ```bash
-    docker build -t yourname/consumingrest .
-```
 ## Run locally 
-After building the image, you can run it locally using:
+
+1. First, clone the repository and navigate to the project root directory. Use the appropriate build command based on your operating system:
+   ```bash
+   git clone https://github.com/ybizualem/Calling_RESTful_services
+   ```
+2. To build the Docker image for the ConsumingRest application, run the following command from the root of this project:
+
+ ```bash
+    docker build -t yourname/consumingrest .
+  ```
+2. After building the image, you can run it locally using:
     ```bash
     docker run -p 8080:8080 yourname/consumingrest
     ```
-# test
+3. Test
 Test the service by accessing:
     ```bash
      http://localhost:8080
